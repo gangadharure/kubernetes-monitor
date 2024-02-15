@@ -1,0 +1,523 @@
+repo_name: gangadharure/kubernetes-monitor
+report_id: 74fdedd58c38166d7e178c53475fb930
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:20:22+00:00'
+requested_by: ahmed-agabani-snyk
+provider: github
+branch: staging
+detected_tools_count: 39
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Tal Kaptsan
+  last_updated_on: 2019-05-29 07:51:30.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: YAML
+  description: A straightforward machine parsable data serialization format designed
+    for human readability and interaction
+  website_url: http://www.yaml.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1744/yaml.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2021-06-06 13:49:41.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package.json
+  detection_source: package.json
+  last_updated_by: Tal Kaptsan
+  last_updated_on: 2019-05-29 07:51:30.000000000 Z
+- name: Bunyan
+  description: A logging module for node.js services
+  website_url: https://github.com/trentm/node-bunyan
+  version: 1.8.15
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/10249/no-img-open-source.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2021-03-19 13:23:19.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2022-08-31 16:50:18.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package.json
+  detection_source: package.json
+  last_updated_by: Tal Kaptsan
+  last_updated_on: 2019-05-29 07:51:30.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/.github/workflows/release-notes.yaml
+  detection_source: ".github/workflows/release-notes.yaml"
+  last_updated_by: Minsi Yang
+  last_updated_on: 2022-12-28 11:36:20.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Tal Kaptsan
+  last_updated_on: 2019-05-29 07:51:30.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2022-03-24 11:24:54.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2021-11-19 13:36:30.000000000 Z
+- name: Snyk
+  description: Automatically find &amp; fix vulnerabilities in your code, containers,
+    Kubernetes, and Terraform
+  website_url: https://snyk.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/.snyk
+  detection_source: ".snyk"
+  last_updated_by: Ramon Rüttimann
+  last_updated_on: 2022-11-30 07:53:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package.json
+  detection_source: package.json
+  last_updated_by: Tal Kaptsan
+  last_updated_on: 2019-05-29 07:51:30.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/test/fixtures/proxying/Dockerfile
+  detection_source: test/fixtures/proxying/Dockerfile
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2020-04-16 17:14:35.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor
+  detection_source: Repo Metadata
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 12.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2022-07-11 13:15:30.000000000 Z
+- name: "@types/async"
+  description: TypeScript definitions for Async
+  package_url: https://www.npmjs.com/@types/async
+  version: 3.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17144/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-07-09 10:00:34.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sharon Naftaly
+  last_updated_on: 2023-02-21 16:49:43.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 10.17.60
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2022-07-11 13:15:30.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2023-04-26 14:44:01.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.33.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-07-09 10:00:34.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-06-28 14:05:47.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.1359.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2023-05-05 23:27:05.000000000 Z
+- name: child-process-promise
+  description: Simple wrapper around the "child_process" module that makes use of
+    promises
+  package_url: https://www.npmjs.com/child-process-promise
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17031/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2021-11-19 13:36:30.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2022-05-05 20:23:19.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2023-04-26 14:44:01.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2022-05-17 11:16:31.000000000 Z
+- name: lru-cache
+  description: A cache object that deletes the least-recently-used items
+  package_url: https://www.npmjs.com/lru-cache
+  version: 4.1.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2021-05-30 09:28:17.000000000 Z
+- name: needle
+  description: The leanest and most handsome HTTP client in the Nodelands
+  package_url: https://www.npmjs.com/needle
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17393/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2021-11-19 13:36:30.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2021-05-27 10:12:43.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ivan Stanev
+  last_updated_on: 2021-11-19 13:36:30.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 26.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Sharon Naftaly
+  last_updated_on: 2023-02-21 16:49:43.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Daniel Kontorovskyi
+  last_updated_on: 2022-07-11 13:15:30.000000000 Z
+- name: tsc-watch
+  description: The TypeScript compiler with onSuccess command
+  package_url: https://www.npmjs.com/tsc-watch
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18024/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/gangadharure/kubernetes-monitor/blob/staging/package-lock.json
+  detection_source: package.json
+  last_updated_by: Minsi Yang
+  last_updated_on: 2021-11-08 20:35:15.000000000 Z
